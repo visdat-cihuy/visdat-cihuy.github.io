@@ -1,0 +1,22 @@
+{
+  "name": "visdat-cihuy.github.io",
+  "version": "1.0.0",
+  "description": "A web-based data-driven visualization to guide trainers to become Pokemon Contest Champion. Big Project II of Data Visualization and Information class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visdat-cihuy/visdat-cihuy.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visdat-cihuy/visdat-cihuy.github.io/issues"
+  },
+  "homepage": "https://github.com/visdat-cihuy/visdat-cihuy.github.io#readme",
+  "dependencies": {
+    "highcharts": "^5.0.10"
+  }
+}
