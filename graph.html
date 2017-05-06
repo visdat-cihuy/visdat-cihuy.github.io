@@ -9,43 +9,138 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 </head>
 <body>
-    <div id="container" class="container">
-        <div id="mainChart" class="z-depth-2"></div>
+    <div id="container" style="width: 100%; height: 100vh; padding: 20px 20px 20px 20px;
+                               background-color: #e0e0e0">
+        <div id="mainChart" class="z-depth-4" style="height: 100%;"></div>
     </div>
 </body>
 
 <script type="text/javascript">
 
     var years = [];
-    var rates = [4.87, 4.69, 5.46, 6.36, 6.08, 8.10, 9.06, 9.67, 9.86, 10.75, 10.36, 9.43, 8.42, 8.01, 7.27, 7.22, 6.25, 6.02, 5.82, 5.99, 5.56];
+    var rates = [
+        4.87, 4.69, 5.46, 6.36, 6.08, 8.10, 9.06, 9.67,
+        9.86, 10.75, 10.36, 9.43, 8.42, 8.01, 7.27, 7.22,
+        6.25, 6.02, 5.82, 5.99, 5.56
+    ];
 
     for (var year = 1996; year < 2017; year++) {
       years.push(year);
     }
 
-    Highcharts.setOptions({
-        colors: ["#2196f3"]
-    });
-
-    let mainChart = Highcharts.chart('mainChart', {
+    let mainChart = Highcharts.chart("mainChart", {
         chart: {
-            type: 'line'
+            type: "line",
+            style: {
+                "fontFamily": "GillSans, Calibri, Trebuchet, sans-serif"
+            },
+            events: {
+                load: function(){
+                    this.ctooltip = new Highcharts.Tooltip(this, this.options.tooltip);
+                 }
+             }
+        },
+        plotOptions: {
+            series: {
+                stickyTracking: false,
+                events: {
+                    click: function(evt) {
+                        this.chart.ctooltip.refresh(evt.point, evt);
+                    },
+                    mouseOut: function() {
+                        this.chart.ctooltip.hide();
+                    },
+                    legendItemClick: function () {
+                        return false;
+                    }
+                },
+                states: {
+                    hover: {
+                        enabled: true,
+                        lineWidth: 10
+                    }
+                }
+            }
+        },
+        colors: ["#bdbdbd", "#26c6da", "#ab47bc", "#66bb6a", "#673ab7", "#d4e157"],
+        credits: {
+            text: "Visdat Cihuy",
+            href: "http://visdat-cihuy.github.io"
         },
         title: {
-            text: 'Unemployment Rate of Indonesia from 1996-2016'
+            text: "Indonesia Unemployent Rate by Presidency Term"
         },
         xAxis: {
+            title: {
+                text: "Year"
+            },
             categories: years
         },
         yAxis: {
             title: {
-                text: 'Rate (%)'
-            }
+                text: "Rate (%)"
+            },
+            alternateGridColor: "#f5f5f5"
         },
-        series: [{
-            name: 'Rate',
-            data: rates
-        }]
+        series: [
+            {
+                name: "Last event",
+                data: rates.slice(0,2).map(function(item, pos){
+                        return {
+                            x: years[pos],
+                            y: item
+                        }
+                    })
+            },
+            {
+                name: "Habibie",
+                data: rates.slice(1,4).map(function(item, pos){
+                        return {
+                            x: years[pos + 1],
+                            y: item
+                        }
+                    })
+            },
+            {
+                name: "Gusdur",
+                data: rates.slice(3,6).map(function(item, pos){
+                        return {
+                            x: years[pos + 3],
+                            y: item
+                        }
+                    })
+            },
+            {
+                name: "Megawati",
+                data: rates.slice(5,9).map(function(item, pos){
+                        return {
+                            x: years[pos + 5],
+                            y: item
+                        }
+                    })
+            },
+            {
+                name: "SBY",
+                data: rates.slice(8,19).map(function(item, pos){
+                        return {
+                            x: years[pos + 8],
+                            y: item
+                        }
+                    })
+            },
+            {
+                name: "Jokowi",
+                data: rates.slice(18,21).map(function(item, pos){
+                        return {
+                            x: years[pos + 18],
+                            y: item
+                        }
+                    })
+            }
+        ],
+        tooltip: {
+            enabled: false
+        }
     });
 
 </script>
