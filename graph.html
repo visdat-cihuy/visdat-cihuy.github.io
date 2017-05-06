@@ -20,43 +20,83 @@
 
         <div id="past" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>Past Event</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>Collapse of Rupiah</h5></li>
+                    <li class="collection-item">138 billion US dollars loan</li>
+                    <li class="collection-item">Only 14.44 billion US dollars foreign exchange left</li>
+                    <li class="collection-item">Rupiah values reach Rp. 17000/US dollar</li>
+                    <li class="collection-item">About 70% industries committed to be collapsed</li>
+                </ul>
             </div>
         </div>
 
         <div id="habibie" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>BJ Habibie</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>Significant inflation</h5></li>
+                    <li class="collection-item">Huge decline on currency value</li>
+                    <li class="collection-item">Massive termination of employment</li>
+                    <li class="collection-item">Bank liquidity crisis and credit issues</li>
+                    <li class="collection-item">Colossal foreign investments in local industries</li>
+                    <li class="collection-item">Failed IMF aid attempt</li>
+                    <li class="collection-item">The price of basic needs keep increasing</li>
+                    <li class="collection-item">Structural Adjustment Program</li>
+                </ul>
             </div>
         </div>
 
         <div id="gusdur" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>Abdurrahman Wahid</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>National Chaos</h5></li>
+                    <li class="collection-item">Many corruption, collution, and nepotism occurred</li>
+                    <li class="collection-item">Many social and racial riots happened</li>
+                    <li class="collection-item">Relationship between Indonesia and IMF was not really well</li>
+                    <li class="collection-item">Political and social instability</li>
+                    <li class="collection-item">Rupiah value to American Dollar is approximately 12.000/USD on April 2001</li>
+                </ul>
             </div>
         </div>
 
         <div id="megawati" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>Megawati Soekarno Putri</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>Early infrastructure construction</h5></li>
+                    <li class="collection-item">Increasing of currency value</li>
+                    <li class="collection-item">Unstable economic policies</li>
+                    <li class="collection-item">Deceleration of economic growth</li>
+                    <li class="collection-item">The continuing of monetary crisis</li>
+                    <li class="collection-item">Falling GDP</li>
+                </ul>
             </div>
         </div>
 
         <div id="sby" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>Susilo Bambang Yudhoyono</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>More Stable Politics (2005-2009)</h5></li>
+                    <li class="collection-item">Increasing informal labor marke</li>
+                    <li class="collection-item">Privatization of labor</li>
+                    <li class="collection-item">Relatively stable economic policies</li>
+                </ul>
+                <ul class="collection with-header">
+                    <li class="collection-header"><h5>Indonesia become member of G-20 (2009-2014)</h5></li>
+                    <li class="collection-item">Increasing GDP</li>
+                    <li class="collection-item">Equity funding</li>
+                    <li class="collection-item">The rise of inflation rate</li>
+                    <li class="collection-item">Stronger IDR value to USD</li>
+                </ul>
             </div>
         </div>
 
         <div id="jokowi" class="modal bottom-sheet">
             <div class="modal-content">
-              <h4>Joko Widodo</h4>
-              <p>A bunch of text</p>
+                <ul class="collection with-header">
+                <li class="collection-header"><h5>Free market</h5></li>
+                  <li class="collection-item">Encouraging free-market policy</li>
+                  <li class="collection-item">Fall of oil prices from 100 to 30 USD per barrel</li>
+                  <li class="collection-item">Badan Penyelenggara Jaminan Sosial Ketenagakerjaan established</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -144,7 +184,7 @@
         series: [
             {
                 id: "past",
-                name: "Past Events",
+                name: "Monetary Crisis",
                 data: rates.slice(0,2).map(function(item, pos){
                         return {
                             x: years[pos],
