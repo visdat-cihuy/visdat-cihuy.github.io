@@ -5,17 +5,68 @@
     <meta charset="UTF-8">
     <!-- Highchart -->
     <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 </head>
 <body>
     <div id="container" style="width: 100%; height: 100vh; padding: 20px 20px 20px 20px;
                                background-color: #e0e0e0">
         <div id="mainChart" class="z-depth-4" style="height: 100%;"></div>
+
+        <div id="past" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Past Event</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
+
+        <div id="habibie" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>BJ Habibie</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
+
+        <div id="gusdur" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Abdurrahman Wahid</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
+
+        <div id="megawati" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Megawati Soekarno Putri</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
+
+        <div id="sby" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Susilo Bambang Yudhoyono</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
+
+        <div id="jokowi" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Joko Widodo</h4>
+              <p>A bunch of text</p>
+            </div>
+        </div>
     </div>
 </body>
 
 <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
 
     var years = [];
     var rates = [
@@ -42,11 +93,13 @@
         },
         plotOptions: {
             series: {
-                stickyTracking: false,
                 events: {
                     legendItemClick: function () {
-                        alert("Need to implement pop up");
+                        $('#' + this.userOptions.id).modal('open');
                         return false;
+                    },
+                    click: function() {
+                        $('#' + this.userOptions.id).modal('open');
                     }
                 },
                 states: {
@@ -64,11 +117,6 @@
                         hover: {
                             enabled: false
                         }
-                    }
-                },
-                events: {
-                    click: function(event) {
-                        alert("Need to implement pop up");
                     }
                 }
             }
@@ -95,7 +143,8 @@
         },
         series: [
             {
-                name: "Last event",
+                id: "past",
+                name: "Past Events",
                 data: rates.slice(0,2).map(function(item, pos){
                         return {
                             x: years[pos],
@@ -104,7 +153,8 @@
                     })
             },
             {
-                name: "Habibie",
+                id: "habibie",
+                name: "BJ Habibie",
                 data: rates.slice(1,4).map(function(item, pos){
                         return {
                             x: years[pos + 1],
@@ -113,7 +163,8 @@
                     })
             },
             {
-                name: "Gusdur",
+                id: "gusdur",
+                name: "Abdurrahman Wahid",
                 data: rates.slice(3,6).map(function(item, pos){
                         return {
                             x: years[pos + 3],
@@ -122,6 +173,7 @@
                     })
             },
             {
+                id: "megawati",
                 name: "Megawati",
                 data: rates.slice(5,9).map(function(item, pos){
                         return {
@@ -131,6 +183,7 @@
                     })
             },
             {
+                id: "sby",
                 name: "SBY",
                 data: rates.slice(8,19).map(function(item, pos){
                         return {
@@ -140,7 +193,8 @@
                     })
             },
             {
-                name: "Jokowi",
+                id: "jokowi",
+                name: "Joko Widodo",
                 data: rates.slice(18,21).map(function(item, pos){
                         return {
                             x: years[pos + 18],
