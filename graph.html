@@ -37,20 +37,15 @@
             events: {
                 load: function(){
                     this.ctooltip = new Highcharts.Tooltip(this, this.options.tooltip);
-                 }
-             }
+                }
+            }
         },
         plotOptions: {
             series: {
                 stickyTracking: false,
                 events: {
-                    click: function(evt) {
-                        this.chart.ctooltip.refresh(evt.point, evt);
-                    },
-                    mouseOut: function() {
-                        this.chart.ctooltip.hide();
-                    },
                     legendItemClick: function () {
+                        alert("Need to implement pop up");
                         return false;
                     }
                 },
@@ -58,6 +53,22 @@
                     hover: {
                         enabled: true,
                         lineWidth: 10
+                    }
+                },
+                lineWidth: 5
+            },
+            line: {
+                marker: {
+                    enabled: false,
+                    states: {
+                        hover: {
+                            enabled: false
+                        }
+                    }
+                },
+                events: {
+                    click: function(event) {
+                        alert("Need to implement pop up");
                     }
                 }
             }
