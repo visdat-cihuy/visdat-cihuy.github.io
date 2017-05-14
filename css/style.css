@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    background-color: #DB5553;
+    height: 100vh;
+    color: #FFF;
+}
+
+.main-heading {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 100px;
+
+}
+
+.main-heading .main-text {
+    font-size: 90px;
+    line-height: 1;
+}
+
+.main-heading .secondary-text {
+    font-size: 44px;
+    line-height: 1.2;
+}
+
+.main-subtitle {
+    font-size: 18px;
+    padding: 0 calc((100% - 750px)/2);
+}
+
+
+.unemployment-rate {
+    min-height: 100vh;
+    background: #F1F1F2;
+}
+
+.conclusion {
+    height: 100vh;
+    background: #F1F1F2;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 60px;
+    color: #DB5553;
+}
+
+
+.continue {
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-down {
+    opacity: 1;
+    transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+  }
+}
