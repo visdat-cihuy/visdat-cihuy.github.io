@@ -1,19 +1,47 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Verdict</title>
-  <meta charset="UTF-8">
-  <!-- Highchart -->
-  <script src="https://code.highcharts.com/highcharts.src.js"></script>
-  <!-- Materialize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="kesimpulan.css">
+  <title>Kesimpulan</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
 </head>
-
 <body>
-  <div id="containter" class="container">
-    <div id="conclusionChart" class="z-depth-2">{{}}</div>
-  </div>
-  	<script src="kesimpulan.js"></script>
+  <div id="container" style="width: 100%; height: 400px;"></div>
+  <script type="text/javascript">
+    $(function () { 
+        var myChart = Highcharts.chart('container', {
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: 'Who is better on fighting unemployment?'
+            },
+            xAxis: {
+                categories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            yAxis: {
+                title: {
+                    text: 'Lama Menjabat'
+                }
+            },
+            series: [{
+                name: 'Habibie',
+                data: [5.46, 6.36]
+            }, {
+                name: 'Abdurrahman Wahid',
+                data: [6.36, 7.23, 8.1]
+            }, {
+              name: 'Megawati',
+              data: [8.1, 8.6867, 9.273333333333333, 9.86]
+            }, {
+              name: 'Susilo Bambang Yudhoyono',
+              data: [9.86,9.41,8.962,8.513,8.064,7.6156,7.167,6.7178,6.2689,5.82]
+            }, {
+              name: 'Jokowi',
+              data: [5.82, 5.59]
+            }]
+        });
+    });
+  </script>
 </body>
-
 </html>
