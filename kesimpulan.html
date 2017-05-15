@@ -11,38 +11,26 @@
     $(function () { 
         var myChart = Highcharts.chart('container', {
             chart: {
-                type: 'line'
+                type: 'column'
             },
             title: {
                 text: 'Who is better on fighting unemployment?'
             },
             xAxis: {
-                title: {
-                    text: 'presidency term (year)'
-                },
-                categories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                categories: ['Habibie', 'Abdurrahman Wahid', 'Megawati', 'Susilo Bambang Yudhoyono', 'Jokowi']
             },
             yAxis: {
                 title: {
                     text: 'percentage'
                 }
             },
+            credits: {
+                enabled: false
+            },
             series: [{
-                name: 'Habibie',
-                data: [5.46, 6.36]
-            }, {
-                name: 'Abdurrahman Wahid',
-                data: [6.36, 7.23, 8.1]
-            }, {
-              name: 'Megawati',
-              data: [8.1, 8.6867, 9.273333333333333, 9.86]
-            }, {
-              name: 'Susilo Bambang Yudhoyono',
-              color: 'red',
-              data: [9.86,9.41,8.962,8.513,8.064,7.6156,7.167,6.7178,6.2689,5.82]
-            }, {
-              name: 'Jokowi',
-              data: [5.82, 5.59]
+                name: 'percentage',
+                showInLegend: false,
+                data: [{y: 0.45, color: 'red'}, {y: 0.58, color: 'red'}, {y: 0.44, color: 'red'}, {y: -0.404, color: 'green'}, {y:-0.115, color:'green'}]
             }]
         });
     });
