@@ -2,6 +2,7 @@ let mapboxAccessToken = 'pk.eyJ1IjoiY2lodXkiLCJhIjoiY2oyY3o0OGFnMDRoZDJxcXlhcDd0
 let map = L.map('map').setView([-5.14, 119.42], 5);
 let colors = ["#ffebee","#ef9a9a","#ef5350"];
 let provinceToColor = {
+  
     "Aceh": colors[0],
     "Bali": colors[2],
     "Bangka-Belitung": colors[1],
@@ -49,4 +50,8 @@ $.getJSON( "geodata_compact.json", function(data) {
             return {color: provinceToColor[feature.properties.NAME_1]}
         }
     }).addTo(map);
+});
+
+$.getJSON( "unemployment.json", function(data) {
+  return {year: }
 });

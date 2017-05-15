@@ -1,0 +1,2868 @@
+{
+  "content": [{
+    "year": "1996",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.32915102"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.2973959"
+      },{
+        "name": "Sumatera Barat",
+        "value": "0.9691016448"
+      },{
+        "name": "Riau",
+        "value": "1.220156532"
+      },{
+        "name": "Jambi",
+        "value": "0.7796874715"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.8262478004"
+      },{
+        "name": "Bengkulu",
+        "value": "0.694552402"
+      },{
+        "name": "Lampung",
+        "value": "0.8678082384"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "1.932713965"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.377637739"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.7575816425"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.83563201"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.7132059414"
+      },{
+        "name": "Banten",
+        "value": "0"
+      },{
+        "name": "Bali",
+        "value": "0.5470650611"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.5342334487"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.4487472729"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.7044338899"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.6166618841"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.6849879247"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "1.560640611"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.899094258"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "0.9935963604"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "1.095116109"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.7519572937"
+      },{
+        "name": "Gorontalo",
+        "value": "0"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "1.13979852"
+      },{
+        "name": "Maluku Utara",
+        "value": "0"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "0.8268649032"
+      }],
+    "max": "1.932713965",
+    "min": "0",
+    "treshold": "0.7547694681"
+    }
+  }, {
+    "year": "1997",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.117401265"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.106089279"
+      },{
+        "name": "Sumatera Barat",
+        "value": "0.9677846158"
+      },{
+        "name": "Riau",
+        "value": "1.261036184"
+      },{
+        "name": "Jambi",
+        "value": "0.8653675932"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.8779486568"
+      },{
+        "name": "Bengkulu",
+        "value": "0.7286035612"
+      },{
+        "name": "Lampung",
+        "value": "0.7337426458"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "2.332510896"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.369918942"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.8231652688"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.8607783821"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.706455115"
+      },{
+        "name": "Banten",
+        "value": "0"
+      },{
+        "name": "Bali",
+        "value": "0.5524683537"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.3651442546"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.5133291422"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.7692832078"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.8480085113"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.6061063221"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "1.459912361"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.710121245"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "0.8031517207"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "0.9558747202"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.5280575925"
+      },{
+        "name": "Gorontalo",
+        "value": "0"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "1.196564844"
+      },{
+        "name": "Maluku Utara",
+        "value": "0"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "0.7137223213"
+      }],
+    "max": "2.332510896",
+    "min": "0",
+    "treshold": "0.7515129268"
+    }
+  }, {
+    "year": "1998",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.136682347"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.292207459"
+      },{
+        "name": "Sumatera Barat",
+        "value": "0.9346993604"
+      },{
+        "name": "Riau",
+        "value": "1.053735982"
+      },{
+        "name": "Jambi",
+        "value": "0.4744065817"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.446385058"
+      },{
+        "name": "Bengkulu",
+        "value": "0.3596880668"
+      },{
+        "name": "Lampung",
+        "value": "0.7832818192"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "2.255367731"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.407984196"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.9281578906"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.681147474"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.7509183364"
+      },{
+        "name": "Banten",
+        "value": "0"
+      },{
+        "name": "Bali",
+        "value": "0.5659690037"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.574887633"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.4829802969"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.6671388531"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.8210313588"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.761462162"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "1.545677656"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.003767504"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "0.9147486535"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "0.9605679257"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.4691824022"
+      },{
+        "name": "Gorontalo",
+        "value": "0"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "0.6779820893"
+      },{
+        "name": "Maluku Utara",
+        "value": "0"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "0.5888885485"
+      }],
+    "max": "2.255367731",
+    "min": "0",
+    "treshold": "0.6725604712"
+    }
+  }, {
+    "year": "1999",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.188948735"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.205907444"
+      },{
+        "name": "Sumatera Barat",
+        "value": "0.9252502166"
+      },{
+        "name": "Riau",
+        "value": "1.19921555"
+      },{
+        "name": "Jambi",
+        "value": "0.546452713"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.790990027"
+      },{
+        "name": "Bengkulu",
+        "value": "0.5338493463"
+      },{
+        "name": "Lampung",
+        "value": "0.7201763526"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "2.3603607"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.546407163"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.6841610291"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.5881466297"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.7777853461"
+      },{
+        "name": "Banten",
+        "value": "0"
+      },{
+        "name": "Bali",
+        "value": "0.3914835157"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.2267065362"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.4601356972"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.317553667"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.576578544"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.3722151432"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "1.728187394"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.218761588"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "0.6912613513"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "1.018913468"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.6851437242"
+      },{
+        "name": "Gorontalo",
+        "value": "0"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "0.7388571004"
+      },{
+        "name": "Maluku Utara",
+        "value": "0"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "1.009724925"
+      }],
+    "max": "2.3603607",
+    "min": "0",
+    "treshold": "0.6361538294"
+    }
+  }, {
+    "year": "2000",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "0.7890102442"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.402493836"
+      },{
+        "name": "Sumatera Barat",
+        "value": "0.720056182"
+      },{
+        "name": "Riau",
+        "value": "0.9749417371"
+      },{
+        "name": "Jambi",
+        "value": "0.6056435349"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.9425923601"
+      },{
+        "name": "Bengkulu",
+        "value": "0.5352617601"
+      },{
+        "name": "Lampung",
+        "value": "0.8620805227"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "1.986899321"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.479523465"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.7995008559"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.5681169696"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.7230119451"
+      },{
+        "name": "Banten",
+        "value": "0"
+      },{
+        "name": "Bali",
+        "value": "0.4878586303"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.7068700846"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.4041772502"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.6959014244"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.6096067479"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.6538874461"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "1.461872364"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.425421847"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "0.838148582"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "1.05899462"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.5106311092"
+      },{
+        "name": "Gorontalo",
+        "value": "0"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "0"
+      },{
+        "name": "Maluku Utara",
+        "value": "0"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "0.5948137293"
+      }],
+    "max": "1.986899321",
+    "min": "0",
+    "treshold": "0.631747097"
+    }
+  }, {
+    "year": "2001",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "0.951135223"
+      }, {
+        "name": "Sumatera Utara",
+        "value": "1.121510243"
+      },{
+        "name": "Sumatera Barat",
+        "value": "1.079040501"
+      },{
+        "name": "Riau",
+        "value": "0.7941778776"
+      },{
+        "name": "Jambi",
+        "value": "0.692416383"
+      },{
+        "name": "Sumatera Selatan",
+        "value": "0.78048223"
+      },{
+        "name": "Bengkulu",
+        "value": "0.7419816482"
+      },{
+        "name": "Lampung",
+        "value": "0.7884089699"
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": "0.873396245"
+      },{
+        "name": "Kepulauan Riau",
+        "value": "0"
+      },{
+        "name": "DKI Jakarta",
+        "value": "1.859909864"
+      },{
+        "name": "Jawa Barat",
+        "value": "1.452560923"
+      },{
+        "name": "Jawa Tengah",
+        "value": "0.76163372"
+      },{
+        "name": "DI Yogyakarta",
+        "value": "0.6399409014"
+      },{
+        "name": "Jawa Timur",
+        "value": "0.8040352509"
+      },{
+        "name": "Banten",
+        "value": "1.520510441"
+      },{
+        "name": "Bali",
+        "value": "0.3571615278"
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": "0.7179138549"
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": "0.5253956423"
+      },{
+        "name": "Kalimantan Barat",
+        "value": "0.5970560359"
+      },{
+        "name": "Kalimantan Tengah",
+        "value": "0.7584586928"
+      },{
+        "name": "Kalimantan Selatan",
+        "value": "0.7296453076"
+      },{
+        "name": "Kalimantan Timur",
+        "value": "0.8405789069"
+      },{
+        "name": "Kalimantan Utara",
+        "value": "0"
+      },{
+        "name": "Sulawesi Utara",
+        "value": "1.260834514"
+      },{
+        "name": "Sulawesi Tengah",
+        "value": "1.018013361"
+      },{
+        "name": "Sulawesi Selatan",
+        "value": "1.282557828"
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": "0.9270263839"
+      },{
+        "name": "Gorontalo",
+        "value": "0.9599552273"
+      },{
+        "name": "Sulawesi Barat",
+        "value": "0"
+      },{
+        "name": "Maluku",
+        "value": "1.392433289"
+      },{
+        "name": "Maluku Utara",
+        "value": "1.150533623"
+      },{
+        "name": "Papua Barat",
+        "value": "0"
+      },{
+        "name": "Papua",
+        "value": "0.7187861974"
+      }],
+    "max": "1.859909864",
+    "min": "0",
+    "treshold": "0.7912934238"
+    }
+  }, {
+    "year": "2002",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.030967019
+1.136977627
+1.061215341
+1.056587844
+0.637500714
+0.8988512532
+0.71129888
+0.9181077812
+0.5776469238
+0
+1.588347405
+1.456120891
+0.7352093574
+0.5753549488
+0.7092859334
+1.561034465
+0.4991053892
+0.7660465458
+0.4795945966
+0.9456378651
+0.7040738801
+1.017096606
+1.297666921
+0
+1.252799537
+0.88965829
+1.35587271
+0.9189396966
+1.453924351
+0
+0.8913262486
+1.683432952
+0
+0.66349071
+
+1.683432952
+0.8950887509
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2003",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "0.9268111976
+1.139316927
+1.073090236
+1.110166005
+0.6724544741
+0.9386967694
+0.7728955743
+0.9446643355
+0.7616906974
+0
+1.535945627
+1.291365417
+0.7261527821
+0.5813244118
+0.9082583248
+1.466220736
+0.5539171554
+0.6551809274
+0.4158287659
+0.6753747219
+0.7844011423
+0.7933603269
+1.001332989
+0
+1.115692191
+0.4794081126
+1.790168892
+1.064611199
+1.050977533
+0
+1.305747458
+0.7756425455
+0
+0.6416035975
+
+1.790168892
+0.7888807346
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2004",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "0.9478931371
+1.12334742
+1.292325152
+1.546859813
+0.6125151025
+0.8484735282
+0.637731897
+0.7488455661
+0.7246482529
+0
+1.490999072
+1.388983063
+0.7830844021
+0.6344585165
+0.77986198
+1.451834492
+0.4723416013
+0.7587557005
+0.4542978049
+0.800857891
+0.5668208861
+0.6101795751
+1.053460103
+0
+1.106966663
+0.5938151555
+1.615608742
+0.9480332579
+1.246824772
+0
+1.183979476
+0.7640278957
+0
+0.8112764746
+
+1.615608742
+0.7814731911
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2005",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.232576319
+1.064240679
+1.155452215
+1.212612195
+0.8993160486
+0.9943284647
+0.7002416061
+0.7127006703
+0.7113900998
+0
+1.418649069
+1.40754545
+0.8395147236
+0.5878922297
+0.7887851942
+1.433729195
+0.4347947162
+0.8938519878
+0.4784531891
+0.7788773494
+0.4541173139
+0.6292531897
+0.9398694796
+0
+1.323080621
+0.7133945888
+1.372517527
+0.9232733947
+1.108189372
+0
+1.270264449
+1.021648067
+0
+0.6711823743
+
+1.433729195
+0.8666833557
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2006",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.086171203
+1.270603367
+1.196577744
+1.04722714
+0.6947222952
+1.033899583
+0.6251645672
+0.9112355402
+0.721044153
+1.106659874
+1.241021814
+1.403473421
+0.7824284937
+0.6062450751
+0.7675386659
+1.700892269
+0.5482080688
+0.8616441603
+0.4163360839
+0.7522935096
+0.5701062009
+0.851690937
+1.232730126
+0
+1.365158077
+0.9266489648
+1.210376181
+0.8247308595
+0.8389274586
+0.5349482497
+1.422473932
+0.744766584
+1.02942149
+0.4980723515
+
+1.700892269
+0.8566675487
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2007",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.065961258
+1.099123345
+1.131247536
+1.069874337
+0.687446443
+1.046577257
+0.5199181211
+0.8411886275
+0.7344005898
+0.9477844226
+1.369807454
+1.462785543
+0.837786807
+0.6457627039
+0.7551226519
+1.689664698
+0.4590088561
+0.744223685
+0.4085385302
+0.7184548329
+0.5370771998
+0.7915057816
+1.320187436
+0
+1.346105298
+0.8165502361
+1.233282885
+0.7064781573
+0.7644980969
+0.5055387972
+1.40890037
+0.7631409762
+1.041555768
+0.5586513934
+
+1.689664698
+0.8040280089
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2008",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.113205861
+1.106892047
+1.054623854
+1.041388333
+0.6556421212
+0.9815607794
+0.52713802
+0.7981298718
+0.6991274678
+0.9789699207
+1.378218803
+1.445429523
+0.8589937244
+0.6775615976
+0.7518033
+1.740492443
+0.4672514135
+0.6721453259
+0.4408485742
+0.7064635724
+0.556643522
+0.7771062427
+1.33609771
+0
+1.365429446
+0.7540833336
+1.159305474
+0.6991401728
+0.7531830328
+0.6082646901
+1.288986294
+0.8015009559
+1.005756153
+0.5485048127
+
+1.740492443
+0.7876180573
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2009",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.125374064
+1.043144396
+0.9908259926
+1.093985932
+0.6708012687
+0.9986654013
+0.6486876324
+0.7989374634
+0.6846184077
+0.9945980279
+1.507350361
+1.424510249
+0.9120484179
+0.7496703616
+0.6841837351
+1.865332104
+0.378499372
+0.7729941192
+0.4217480728
+0.6914548604
+0.571926627
+0.8186494609
+1.368900105
+0
+1.32315129
+0.6580736346
+1.101540947
+0.6320862356
+0.6839449228
+0.5891867617
+1.30823375
+0.8349152894
+0.9542993769
+0.5126473149
+
+1.865332104
+0.8087934622
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2010",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.166735124
+1.061463072
+0.9984732374
+1.094572759
+0.6759922999
+0.9077444889
+0.5950082117
+0.7924723807
+0.6783457576
+0.9699920269
+1.538299213
+1.43679049
+0.8983834206
+0.8049222539
+0.6291167344
+1.911913394
+0.4561299262
+0.7607328625
+0.4692230119
+0.6957767025
+0.5513194618
+0.7658162231
+1.413198812
+0
+1.381322585
+0.6530236162
+1.124397851
+0.6448031524
+0.7020467376
+0.5055512736
+1.312477255
+0.8289374383
+1.061915274
+0.5244722373
+
+1.911913394
+0.7986973173
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2011",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.220644651
+1.083975794
+1.075525174
+0.9423231189
+0.5962673433
+0.8933762022
+0.479407491
+0.8242826695
+0.4968501087
+0.8710869768
+1.561996056
+1.383926013
+0.9177240751
+0.6881198008
+0.6664696826
+1.894833449
+0.4124471785
+0.7417895518
+0.4069743057
+0.6811258321
+0.5108530935
+0.8330849626
+1.546761561
+0
+1.374361998
+0.7680431071
+1.040781447
+0.6334070664
+0.8097726853
+0.4239231427
+1.315512087
+0.7718955195
+0.9381651717
+0.6139873041
+
+1.894833449
+0.8170276774
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2012",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.360015926
+1.017061466
+1.051667102
+0.7728265327
+0.5515031344
+0.9010738406
+0.4639457586
+0.8329169417
+0.5003882439
+0.8630638286
+1.62131254
+1.513725654
+0.920890511
+0.6307005165
+0.6617137288
+1.650070667
+0.3460553495
+0.8366500465
+0.4457896616
+0.5566782905
+0.4692071628
+0.7630782228
+1.480705762
+0
+1.32286185
+0.6163248274
+1.006025646
+0.5875588824
+0.7518527244
+0.3409024804
+1.224094046
+0.8258730894
+0.9594066152
+0.538889019
+
+1.650070667
+0.7993498111
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2013",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.532100704
+1.041613495
+1.113405676
+0.8029441497
+0.6349966532
+0.8505938597
+0.556738417
+0.8936730059
+0.5705879094
+0.9698099523
+1.516353889
+1.497254507
+0.9587666523
+0.5807450345
+0.686911477
+1.602999409
+0.3124519838
+0.8782670649
+0.4455884594
+0.591843299
+0.3995116655
+0.6260802207
+1.402074035
+0
+1.18594341
+0.5695594433
+0.91194868
+0.6489388276
+0.7191157217
+0.3627641824
+1.401359116
+0.7724895566
+0.7275073064
+0.5030947459
+
+1.602999409
+0.7499984315
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2014",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.353626397
+1.045398175
+1.101143062
+0.9916372654
+0.6507268033
+0.7558477291
+0.4374087195
+0.8476430961
+0.6708628186
+1.026123893
+1.572053171
+1.469057612
+0.9553338429
+0.471798499
+0.7043190271
+1.626213829
+0.2811562882
+0.9484873092
+0.4486386001
+0.5637807714
+0.5107886589
+0.6720529784
+1.396884765
+0
+1.271240925
+0.5666485543
+0.9330520483
+0.5629781507
+0.5686373154
+0.3156242393
+1.468273186
+0.9394420826
+0.7481035754
+0.5945356296
+
+1.626213829
+0.7519756523
+0"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  },{
+    "year": "2015",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.472886754
+1.092605628
+1.074308708
+1.213595373
+0.5899426568
+0.926306155
+0.6771575571
+0.7150564863
+0.8041812988
+1.271989423
+1.300534225
+1.427919642
+0.8591007584
+0.6792585639
+0.7326955407
+1.512252152
+0.2800407267
+0.8902857363
+0.5801249735
+0.8276859351
+0.6406413869
+0.813365089
+1.224192099
+0.9567343341
+1.478159467
+0.5915180143
+0.9814243702
+0.7646292504
+0.6432545243
+0.429956051
+1.388733705
+0.9677787247
+1.058352919
+0.6429869829
+
+1.512252152
+0.8746932474
+0.2800407267"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  }, {
+    "year": "2016",
+    "rate": {
+      "province": [{
+        "name": "Aceh",
+        "value": "1.41334206
+1.109698802
+0.9808081548
+1.203354964
+0.7795032423
+0.7420340276
+0.6421167359
+0.8247090234
+0.7888643843
+1.505018397
+1.069689506
+1.570967847
+0.7946829028
+0.4980113717
+0.7517693664
+1.518205777
+0.3604781749
+0.6838528216
+0.6152410407
+0.793238663
+0.7643779886
+0.8167066524
+1.512926938
+0.8231170778
+1.260362212
+0.607335715
+0.8920172171
+0.5849958538
+0.597454498
+0.5440682216
+1.262347433
+0.6696685266
+1.18728911
+0.5685415026
+
+1.570967847
+0.7939607829
+0.3604781749"
+      }, {
+        "name": "Sumatera Utara",
+        "value": ""
+      },{
+        "name": "Sumatera Barat",
+        "value": ""
+      },{
+        "name": "Riau",
+        "value": ""
+      },{
+        "name": "Jambi",
+        "value": ""
+      },{
+        "name": "Sumatera Selatan",
+        "value": ""
+      },{
+        "name": "Bengkulu",
+        "value": ""
+      },{
+        "name": "Lampung",
+        "value": ""
+      },{
+        "name": "Kepulauan Bangka Belitung",
+        "value": ""
+      },{
+        "name": "Kepulauan Riau",
+        "value": ""
+      },{
+        "name": "DKI Jakarta",
+        "value": ""
+      },{
+        "name": "Jawa Barat",
+        "value": ""
+      },{
+        "name": "Jawa Tengah",
+        "value": ""
+      },{
+        "name": "DI Yogyakarta",
+        "value": ""
+      },{
+        "name": "Jawa Timur",
+        "value": ""
+      },{
+        "name": "Banten",
+        "value": ""
+      },{
+        "name": "Bali",
+        "value": ""
+      },{
+        "name": "Nusa Tenggara Barat",
+        "value": ""
+      },{
+        "name": "Nusa Tengggara Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Barat",
+        "value": ""
+      },{
+        "name": "Kalimantan Tengah",
+        "value": ""
+      },{
+        "name": "Kalimantan Selatan",
+        "value": ""
+      },{
+        "name": "Kalimantan Timur",
+        "value": ""
+      },{
+        "name": "Kalimantan Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Utara",
+        "value": ""
+      },{
+        "name": "Sulawesi Tengah",
+        "value": ""
+      },{
+        "name": "Sulawesi Selatan",
+        "value": ""
+      },{
+        "name": "Sulawesi Tenggara",
+        "value": ""
+      },{
+        "name": "Gorontalo",
+        "value": ""
+      },{
+        "name": "Sulawesi Barat",
+        "value": ""
+      },{
+        "name": "Maluku",
+        "value": ""
+      },{
+        "name": "Maluku Utara",
+        "value": ""
+      },{
+        "name": "Papua Barat",
+        "value": ""
+      },{
+        "name": "Papua",
+        "value": ""
+      }],
+    "max": "",
+    "min": "",
+    "treshold": ""
+    }
+  },
+]}
