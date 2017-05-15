@@ -18,7 +18,7 @@ let category = {
     "Banten": "Rendah",
     "Bali": "Rendah",
     "Nusa Tenggara Barat": "Rendah",
-    "Nusa Tengggara Timur": "Rendah",
+    "Nusa Tenggara Timur": "Rendah",
     "Kalimantan Barat": "Rendah",
     "Kalimantan Tengah": "Rendah",
     "Kalimantan Selatan": "Rendah",
@@ -643,7 +643,7 @@ let category = {
     "Gorontalo":"Sedang",
     "Sulawesi Barat":"Rendah",
     "Maluku": "Sedang",
-    "Maluku Utara": "seddang",
+    "Maluku Utara": "Sedang",
     "Irian Jaya Barat": "Sedang",
     "Papua": "Rendah"
   },
