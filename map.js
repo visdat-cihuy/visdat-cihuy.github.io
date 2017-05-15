@@ -1,52 +1,84 @@
 let mapboxAccessToken = 'pk.eyJ1IjoiY2lodXkiLCJhIjoiY2oyY3o0OGFnMDRoZDJxcXlhcDd0emdyeCJ9.sXLg14Z3TyjjxSRLSs47Xw';
-let map = L.map('map').setView([-5.14, 119.42], 5);
-let colors = ["#90caf9","#64b5f6","#42a5f5","#2196f3","#1e88e5","#1976d2","#1565c0","#0d47a1"];
-let provinceToColor = {
-    "Aceh": colors[0],
-    "Bali": colors[2],
-    "Bangka-Belitung": colors[3],
-    "Banten": colors[4],
-    "Bengkulu": colors[5],
-    "Gorontalo": colors[6],
-    "Irian Jaya Barat": colors[7],
-    "Jakarta Raya": colors[0],
-    "Jambi": colors[1],
-    "Jawa Barat": colors[2],
-    "Jawa Tengah": colors[3],
-    "Jawa Timur": colors[4],
-    "Kalimantan Barat": colors[5],
-    "Kalimantan Selatan": colors[6],
-    "Kalimantan Tengah": colors[7],
-    "Kalimantan Timur": colors[0],
-    "Kepulauan Riau": colors[1],
-    "Lampung": colors[2],
-    "Maluku": colors[3],
-    "Maluku Utara": colors[3],
-    "Nusa Tenggara Barat": colors[4],
-    "Nusa Tenggara Timur": colors[5],
-    "Papua": colors[6],
-    "Riau": colors[7],
-    "Sulawesi Barat": colors[0],
-    "Sulawesi Selatan": colors[1],
-    "Sulawesi Tengah": colors[2],
-    "Sulawesi Tenggara": colors[3],
-    "Sulawesi Utara": colors[4],
-    "Sumatera Barat": colors[5],
-    "Sumatera Selatan": colors[6],
-    "Sumatera Utara": colors[7],
-    "Yogyakarta": colors[0]
-}
-
+let map = L.map('map', {
+    center: [-2.2, 117.7],
+    zoom: 5,
+    minZoom: 5,
+    maxZoom: 9,
+    maxBounds: [
+        [9.49410032, 92.65179575],
+        [-14.17752274, 145.29828013]
+    ]
+});
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken, {
-    id: 'mapbox.light',
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
+    id: 'mapbox.light'
 }).addTo(map);
 
+let colorMap = {
+    "Tinggi": "rgba(183,28,28,1)",
+    "Sedang": "rgba(183,28,28,0.75)",
+    "Rendah": "rgba(183,28,28,0.5)"
+};
+let control = [
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+]
+
+
+var indoLayer = {};
 $.getJSON( "geodata_compact.json", function(data) {
 
-    L.geoJson(data, {
+    indoLayer = L.geoJson(data, {
         style: function (feature) {
-            return {color: provinceToColor[feature.properties.NAME_1]}
+            return {
+                color: colorMap[category["1996"][feature.properties.NAME_1]],
+                opacity: 0.2,
+                weight: 0,
+                fillOpacity: 1
+            }
         }
     }).addTo(map);
 });
+
+let $select = $('<select></select>')
+    .appendTo($('#control'))
+    .on('change', function() {
+        setControl($(this).val());
+    });
+
+for (var i = 0; i < control.length; i++) {
+    $('<option></option>')
+        .text(control[i])
+        .attr('value', control[i])
+        .appendTo($select);
+}
+
+function setControl(year) {
+    indoLayer.setStyle(function(feature){
+        let color = colorMap[category[year][feature.properties.NAME_1]];
+        return {
+            color: color,
+            opacity: 0.2,
+            weight: 0,
+            fillOpacity: 1
+        }
+    });
+}
