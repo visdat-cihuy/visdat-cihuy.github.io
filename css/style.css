@@ -3,9 +3,28 @@ body {
 }
 
 .main {
-    background-color: #DB5553;
+    background-color: #2e3136;
     height: 100vh;
-    color: #FFF;
+    color: #eee;
+}
+
+.container.chart-container {
+    width: 1250px;
+}
+
+.collection-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #eee;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.collection-item {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #eee;
 }
 
 .main-heading {
@@ -14,11 +33,11 @@ body {
     margin-top: 0;
     margin-bottom: 30px;
     padding-top: 100px;
-
 }
 
 .main-heading .main-text {
     font-size: 90px;
+    color: #DB5553;
     line-height: 1;
 }
 
@@ -32,15 +51,105 @@ body {
     padding: 0 calc((100% - 750px)/2);
 }
 
-
 .unemployment-rate {
     min-height: 100vh;
-    background: #F1F1F2;
+    background: #36393e;
+}
+
+#mainChart {
+    height: 550px;
+}
+
+.president-photo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.president-photo img {
+    max-width: 100%;
+}
+
+.annotations-title.moncris h4 {
+    color: #5f969b;
+}
+.annotations-title.habibi h4 {
+    color: #d78158;
+}
+.annotations-title.gusdur h4 {
+    color: #5abd70;
+}
+.annotations-title.megawati h4 {
+    color: #ce7dc1;
+}
+.annotations-title.sby h4 {
+    color: #7289DA;
+}
+.annotations-title.jokowi h4 {
+    color: #da7272;
+}
+
+.annotations-title {    
+    text-align: center;
+}
+
+.annotations-title h4 {
+    display: inline-block;
+    color: #DB5553;
+    font-weight: 900;
+    background-color: #eee;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.annotations-slide {
+    height: 550px;
+    padding: 10px;
+}
+.annotations-slide.moncris {
+    background-color: #5f969b;
+}
+
+.annotations-slide.habibi {
+    background-color: #d78158;
+}
+
+.annotations-slide.gusdur {
+    background-color: #5abd70;
+}
+
+.annotations-slide.megawati {
+    background-color: #ce7dc1;
+}
+
+.annotations-slide.sby {
+    background-color: #7289DA;
+}
+
+.annotations-slide.jokowi {
+    background-color: #da7272;
+}
+
+.main-chart-annotations-container {
+    height: 550px;
 }
 
 .conclusion {
     height: 100vh;
     background: #F1F1F2;
+}
+
+#conclusionChart {
+
+}
+
+.conclusion-text {
+    font-size: 18px;
+    line-height: 1.3;
 }
 
 .sub-heading {
@@ -49,8 +158,9 @@ body {
     font-size: 34px;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 40px;
     padding-top: 60px;
-    color: #DB5553;
+    color: #eee;
 }
 
 
@@ -76,7 +186,7 @@ body {
     display: block;
     width: 32px;
     height: 32px;
-    border: 2px solid #FFF;
+    border: 2px solid #eee;
     background-size: 14px auto;
     border-radius: 50%;
     z-index: 2;

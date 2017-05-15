@@ -6,83 +6,185 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/style.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
 
 </head>
 <body>
 
-<div class="main">
-  <h1 class="main-heading">
-    <span class="main-text">INDONESIA</span><br>
-    <span class="secondary-text">UNEMPLOYMENT RATE</span><br>
-    <span class="secondary-text">BY PRESIDENCY TERM</span>
-  </h1>
-  
-  <p class="main-subtitle">
-    Economic growth is one of the most important indicator of economic performance of a country. One of the measurement for economic growth is distribution of income that can be seen from unemployment rate, which is invocate when decreasing the numbers of labor market available and decaying of job vacancy.
-  </p>
+  <div class="main">
+    <h1 class="main-heading">
+      <span class="main-text">INDONESIA</span><br>
+      <span class="secondary-text">UNEMPLOYMENT RATE</span><br>
+      <span class="secondary-text">BY PRESIDENCY TERM</span>
+    </h1>
+    
+    <p class="main-subtitle">
+      Economic growth is one of the most important indicator of economic performance of a country. One of the measurement for economic growth is distribution of income that can be seen from unemployment rate, which is invocate when decreasing the numbers of labor market available and decaying of job vacancy.
+    </p>
 
-  <p class="main-subtitle">
-    Unemployment is a serious problem that our government faces every year. Therefore, in this work we want to expose the relation of regulation, Indonesian presidential, and the rate of unemployment.
-  </p>
+    <p class="main-subtitle">
+      Unemployment is a serious problem that our government faces every year. Therefore, in this work we want to expose the relation of regulation, Indonesian presidential, and the rate of unemployment.
+    </p>
 
-  <a href="#" class="scroll-down" address="true"></a>
-  <p class="continue">CONTINUE</p>
-</div>
+    <a href="#" class="scroll-down" address="true"></a>
+    <p class="continue">CONTINUE</p>
+  </div>
 
-<div class="unemployment-rate">
-  <h2 class="sub-heading">Unemployment Rate of Indonesia from 1966 - 2016</h2>
-  <img src="img/unemployment-rate.png" alt="">
-</div>
+  <div class="unemployment-rate">
+    <h2 class="sub-heading">Unemployment Rate of Indonesia from 1966 - 2016</h2>
+
+    <div class="container chart-container">
+      <div class="col-md-8">
+        <div id="mainChart"></div>
+      </div>
+      
+      <div class="col-md-4">
+
+        <div class="main-chart-annotations-container">
+          
+          <div class="main-chart-annotations">
+            <div class="annotations-slide moncris">
+              <div class="annotations-title moncris">
+                <h4>Monetary Crisis</h4>  
+              </div>
+              <h5 class="collection-header">Collapse of Rupiah</h5>
+              <ul class="collection with-header">
+                <li class="collection-item">138 billion US dollars loan</li>
+                <li class="collection-item">Only 14.44 billion US dollars foreign exchange left</li>
+                <li class="collection-item">Rupiah values reach Rp. 17000/US dollar</li>
+                <li class="collection-item">About 70% industries committed to be collapsed</li>
+              </ul>
+            </div>
+            
+            <div class="annotations-slide habibi">
+              <div class="president-photo">
+                <img src="img/presiden/habibie.png" alt="">
+              </div>
+              <div class="annotations-title habibi">
+                <h4>Habibie</h4>  
+              </div>
+              <h5 class="collection-header">Significant inflation</h5>
+              <ul class="collection with-header">
+                <li class="collection-item">Huge decline on currency value</li>
+                <li class="collection-item">Massive termination of employment</li>
+                <li class="collection-item">Bank liquidity crisis and credit issues</li>
+                <li class="collection-item">Colossal foreign investments in local industries</li>
+                <li class="collection-item">Failed IMF aid attempt</li>
+                <li class="collection-item">The price of basic needs keep increasing</li>
+                <li class="collection-item">Structural Adjustment Program</li>
+              </ul>
+            </div>
+            
+            <div class="annotations-slide gusdur">
+              <div class="president-photo">
+                <img src="img/presiden/gusdur.png" alt="">
+              </div>
+              <div class="annotations-title gusdur">
+                <h4>Abdurrahman Wahid</h4>  
+              </div>
+              <h5 class="collection-header">National Chaos</h5>
+              <ul class="collection with-header">
+                <li class="collection-item">Many corruption, collution, and nepotism occurred</li>
+                <li class="collection-item">Many social and racial riots happened</li>
+                <li class="collection-item">Relationship between Indonesia and IMF was not really well</li>
+                <li class="collection-item">Political and social instability</li>
+                <li class="collection-item">Rupiah value to American Dollar is approximately 12.000/USD on April 2001</li>
+              </ul>
+            </div>
+            
+            <div class="annotations-slide megawati">
+              <div class="president-photo">
+                <img src="img/presiden/megawati.png" alt="">
+              </div>
+              <div class="annotations-title megawati">
+                <h4>Megawati</h4>  
+              </div>
+              <h5 class="collection-header">Early infrastructure construction</h5>
+              <ul class="collection with-header">
+                  <li class="collection-item">Increasing of currency value</li>
+                  <li class="collection-item">Unstable economic policies</li>
+                  <li class="collection-item">Deceleration of economic growth</li>
+                  <li class="collection-item">The continuing of monetary crisis</li>
+                  <li class="collection-item">Falling GDP</li>
+              </ul>
+            </div>
+
+            <div class="annotations-slide sby">
+              <div class="president-photo">
+                <img src="img/presiden/sby.png" alt="">
+              </div>
+              <div class="annotations-title sby">
+                <h4>Susilo Bambang Yudhoyono</h4>  
+              </div>
+              <h5 class="collection-header">More Stable Politics (2005-2009)</h5>
+              <ul class="collection with-header">
+                  <li class="collection-item">Increasing informal labor marke</li>
+                  <li class="collection-item">Privatization of labor</li>
+                  <li class="collection-item">Relatively stable economic policies</li>
+              </ul>
+              
+              <h5 class="collection-header">Indonesia become member of G-20 (2009-2014)</h5>
+              <ul class="collection with-header">
+                  <li class="collection-item">Increasing GDP</li>
+                  <li class="collection-item">Equity funding</li>
+                  <li class="collection-item">The rise of inflation rate</li>
+                  <li class="collection-item">Stronger IDR value to USD</li>
+              </ul>
+            </div>
+
+            <div class="annotations-slide jokowi">
+              <div class="president-photo">
+                <img src="img/presiden/jokowi.png" alt="">
+              </div>
+              <div class="annotations-title jokowi">
+                <h4>Jokowi</h4>  
+              </div>
+              <h5 class="collection-header">Free market</h5>
+              <ul class="collection with-header">
+                <li class="collection-item">Encouraging free-market policy</li>
+                <li class="collection-item">Fall of oil prices from 100 to 30 USD per barrel</li>
+                <li class="collection-item">Badan Penyelenggara Jaminan Sosial Ketenagakerjaan established</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>  
+      </div>
+
+    </div>
+  </div>
 
 <div class="conclusion">
   <h2 class="sub-heading">Who is Better on Fighting Unemployment?</h2>
-  <img src="img/conclusion.png" alt="">
-  <p>
-    For further explanation of the effectiveness in national labor sector, we use the difference of unemployment rate between start and end of respective presidency term. If the result is a ramp, then the president has failed on unempoyment rate fighting because it means the rate is increasing. On the other hand, decreasing value represented by slope indicates that the efforts has been paid off.
-  </p>
+
+  <div class="container chart-container">
+    <div class="col-md-6">
+      <div id="conclusionChart"></div>
+    </div>
+    <div class="col-md-6">
+      <p class="conclusion-text">
+        For further explanation of the effectiveness in national labor sector, we use the difference of unemployment rate between start and end of respective presidency term. If the result is a ramp, then the president has failed on unempoyment rate fighting because it means the rate is increasing. On the other hand, decreasing value represented by slope indicates that the efforts has been paid off.
+      </p>
+    </div>
+  </div>
 
   <p>
     
   </p>
 </div>
 
-<div class="container">
   
-  
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.highcharts.com/highcharts.src.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
-  <!-- <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-    <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-    <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-    <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h3>Visualization</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Map</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-  </div> -->
-</div>
+  <script src="js/main.js"></script>
+  <script src="js/chart.js"></script>
 
 </body>
 </html>
