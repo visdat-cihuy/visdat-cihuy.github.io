@@ -2,6 +2,9 @@ $(document).ready(function(){
     $('.modal').modal();
 });
 
+function mod(n, m) {
+        return ((n % m) + m) % m;
+}
 
 var currentSlide = 0;
 
@@ -25,14 +28,14 @@ function showArrow(index) {
 
 $('.annotations-arrow-next').click(function(e) {
     e.preventDefault();
-    currentSlide = (currentSlide + 1) % 6;
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
 });
 
 $('.annotations-arrow-prev').click(function(e) {
     e.preventDefault();
-    currentSlide = (currentSlide - 1) % 6;
+    currentSlide = mod((currentSlide - 1), 6);
+    console.log(currentSlide);
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
 });
@@ -199,7 +202,7 @@ let mainChart = Highcharts.chart("mainChart", {
         }
     ],
     tooltip: {
-        enabled: false
+        enabled: true
     }
 });
 
