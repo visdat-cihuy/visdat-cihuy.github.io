@@ -12,6 +12,47 @@ body {
     width: 1250px;
 }
 
+.chart-wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-1 {
+    left: 90px;
+    bottom: 155px;
+}
+
+.arrow-2 {
+    left: 130px;
+    bottom: 190px;
+}
+
+.arrow-3 {
+    left: 210px;
+    bottom: 275px;
+}
+
+.arrow-4 {
+    left: 280px;
+    bottom: 420px;
+}
+
+.arrow-5 {
+    left: 560px;
+    bottom: 320px;
+}
+
+.arrow-6 {
+    left: 720px;
+    bottom: 230px;
+}
+
 .collection-header {
     font-size: 18px;
     font-weight: 700;
@@ -57,7 +98,9 @@ body {
 }
 
 #mainChart {
-    height: 550px;
+    height: 600px;
+    width: calc(100% - 20px);
+    position: absolute;
 }
 
 .president-photo {
@@ -72,6 +115,11 @@ body {
 
 .president-photo img {
     max-width: 100%;
+}
+.annotations-main-title {
+    font-size: 18px;
+    font-weight: 900;
+    color: #eee;
 }
 
 .annotations-title.moncris h4 {
@@ -107,7 +155,7 @@ body {
 }
 
 .annotations-slide {
-    height: 550px;
+    height: 530px;
     padding: 10px;
 }
 .annotations-slide.moncris {
@@ -135,7 +183,7 @@ body {
 }
 
 .main-chart-annotations-container {
-    height: 550px;
+    height: 530px;
 }
 
 .conclusion {
@@ -160,7 +208,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 40px;
-    padding-top: 60px;
+    padding-top: 100px;
     color: #eee;
 }
 
@@ -223,4 +271,53 @@ body {
     60% {
         transform: translateY(-5px);
   }
+}
+
+.arrow img {
+  display: block;
+  -webkit-animation: arrow 1s both infinite;
+  animation: arrow 1.2s ease infinite;
+}
+
+ 
+@keyframes arrow {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.annotations-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 100px;
+}
+
+.annotations-arrow-prev {
+    right: 50px;
+}
+
+.annotations-arrow-next {
+    right: 20px;
+}
+
+.annotations-arrow:before {
+    font-family: 'slick';
+    color: #d3d3d3;
+    font-size: 20px;
+}
+
+.annotations-arrow-prev:before {
+    content: '←';
+}
+
+.annotations-arrow-next:before {
+    content: '→';
 }

@@ -2,6 +2,9 @@ $(document).ready(function(){
     $('.modal').modal();
 });
 
+
+var currentSlide = 0;
+
 var years = [];
 var rates = [
     4.87, 4.69, 5.46, 6.36, 6.08, 8.10, 9.06, 9.67,
@@ -12,6 +15,27 @@ var rates = [
 for (var year = 1996; year < 2017; year++) {
   years.push(year);
 }
+
+
+
+function showArrow(index) {
+    $('.arrow').addClass("hide");
+    $('.arrow' + '-' + index).removeClass("hide");
+}
+
+$('.annotations-arrow-next').click(function(e) {
+    e.preventDefault();
+    currentSlide = (currentSlide + 1) % 6;
+    $('.main-chart-annotations').slick('slickGoTo', currentSlide);
+    showArrow(currentSlide + 1);
+});
+
+$('.annotations-arrow-prev').click(function(e) {
+    e.preventDefault();
+    currentSlide = (currentSlide - 1) % 6;
+    $('.main-chart-annotations').slick('slickGoTo', currentSlide);
+    showArrow(currentSlide + 1);
+});
 
 let mainChart = Highcharts.chart("mainChart", {
     chart: {
@@ -40,10 +64,17 @@ let mainChart = Highcharts.chart("mainChart", {
             events: {
                 legendItemClick: function () {
                     $('.main-chart-annotations').slick('slickGoTo', this.userOptions.id);
+                    var current = parseInt(this.userOptions.id) + 1;
+                    showArrow(current);
+                    currentSlide = current - 1;
+
                     return false;
                 },
                 click: function() {
                     $('.main-chart-annotations').slick('slickGoTo', this.userOptions.id);
+                    var current = parseInt(this.userOptions.id) + 1;
+                    showArrow(current);
+                    currentSlide = current - 1;
                 }
             },
             states: {

@@ -13,8 +13,33 @@
 
 </head>
 <body>
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-  <div class="main">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#main">Intro</a></li>
+          <li><a href="#unemploymentRate">Employment Rate</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <div id="main" class="main">
     <h1 class="main-heading">
       <span class="main-text">INDONESIA</span><br>
       <span class="secondary-text">UNEMPLOYMENT RATE</span><br>
@@ -33,18 +58,51 @@
     <p class="continue">CONTINUE</p>
   </div>
 
-  <div class="unemployment-rate">
+  <div id="unemploymentRate" class="unemployment-rate">
     <h2 class="sub-heading">Unemployment Rate of Indonesia from 1966 - 2016</h2>
 
     <div class="container chart-container">
-      <div class="col-md-8">
+      <div class="col-md-8 chart-wrapper">
         <div id="mainChart"></div>
+        <div class="arrow arrow-1">
+          <div class="arrow-img">
+            <img src="img/arrow-1.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow arrow-2 hide">
+          <div class="arrow-img">
+            <img src="img/arrow-2.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow arrow-3 hide">
+          <div class="arrow-img">
+            <img src="img/arrow-3.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow arrow-4 hide">
+          <div class="arrow-img">
+            <img src="img/arrow-4.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow arrow-5 hide">
+          <div class="arrow-img">
+            <img src="img/arrow-5.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow arrow-6 hide">
+          <div class="arrow-img">
+            <img src="img/arrow-6.png" alt="" />
+          </div>
+        </div>
+
+        <button class="annotations-arrow annotations-arrow-next"></button>
+        <button class="annotations-arrow annotations-arrow-prev"></button>
       </div>
       
       <div class="col-md-4">
 
         <div class="main-chart-annotations-container">
-          
+          <h3 class="annotations-main-title">Events</h3>
           <div class="main-chart-annotations">
             <div class="annotations-slide moncris">
               <div class="annotations-title moncris">
@@ -158,7 +216,7 @@
     </div>
   </div>
 
-<div class="conclusion">
+<div id="conclusion" class="conclusion">
   <h2 class="sub-heading">Who is Better on Fighting Unemployment?</h2>
 
   <div class="container chart-container">
@@ -171,10 +229,6 @@
       </p>
     </div>
   </div>
-
-  <p>
-    
-  </p>
 </div>
 
   
