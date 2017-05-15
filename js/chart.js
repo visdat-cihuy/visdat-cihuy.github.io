@@ -97,6 +97,7 @@ let mainChart = Highcharts.chart("mainChart", {
             style: {
                 color: "#d3d3d3",
             },
+
         },
         labels: {
             style: {
@@ -175,17 +176,33 @@ let mainChart = Highcharts.chart("mainChart", {
 var conclusionChart = Highcharts.chart('conclusionChart', {
     chart: {
         type: 'column',
-        backgroundColor: '#F1F1F2',
+        backgroundColor: '#36393E',
     },
     title: {
         text: ''
     },
     xAxis: {
+        lineColor: "#4a4d52",
+        tickColor: '#4a4d52',
         categories: ['Habibie', 'Abdurrahman Wahid', 'Megawati', 'Susilo Bambang Yudhoyono', 'Jokowi'],
+        labels: {
+            style: {
+                color: "#d3d3d3",
+            },
+        }
     },
     yAxis: {
+        gridLineColor: "#4a4d52",
         title: {
-            text: 'percentage'
+            text: 'percentage',
+            style: {
+                color: "#d3d3d3",
+            }
+        },
+        labels: {
+            style: {
+                color: "#d3d3d3",
+            },
         }
     },
     credits: {
@@ -194,6 +211,12 @@ var conclusionChart = Highcharts.chart('conclusionChart', {
     series: [{
         name: 'percentage',
         showInLegend: false,
-        data: [{y: 0.45, color: 'red'}, {y: 0.58, color: 'red'}, {y: 0.44, color: 'red'}, {y: -0.404, color: 'green'}, {y:-0.115, color:'green'}]
+        borderWidth: 0,
+        data: [
+            {y: 0.45, color: '#d15353'},
+            {y: 0.58, color: '#d15353'},
+            {y: 0.44, color: '#d15353'},
+            {y: -0.404, color: '#5ABD70'},
+            {y:-0.115, color:'#5ABD70'}]
     }]
 });
