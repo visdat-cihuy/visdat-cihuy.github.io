@@ -14,7 +14,7 @@ body {
 
 .chart-wrapper {
     position: relative;
-    height: 600px;
+    height: 500px;
 }
 
 .arrow {
@@ -54,16 +54,16 @@ body {
 }
 
 .collection-header {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #eee;
-    margin-top: 15px;
+    margin-top: 1px;
     margin-bottom: 10px;
 }
 
 .collection-item {
     padding-bottom: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #eee;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 #mainChart {
-    height: 600px;
+    height: 500px;
     width: calc(100% - 20px);
     position: absolute;
 }
@@ -117,7 +117,7 @@ body {
     max-width: 100%;
 }
 .annotations-main-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     color: #eee;
 }
@@ -152,10 +152,11 @@ body {
     background-color: #eee;
     padding: 10px 15px;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .annotations-slide {
-    height: 530px;
+    height: 450px;
     padding: 10px;
 }
 .annotations-slide.moncris {
@@ -193,12 +194,12 @@ body {
 
 .unemployment-map {
     background-color: #2E3136;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #map {
     width: 1000px;
-    height: 550px;
+    height: 450px;
     margin-left: 50px;
     float: left;
 }
@@ -208,7 +209,7 @@ body {
     margin-left: 20px;
     font-weight: 700;
     color: #eee;
-    font-size: 14px;
+    font-size: 11px;
     width: 200px;
 }
 
@@ -226,7 +227,7 @@ body {
 .map-control li.selected {
     color: #DA7272;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .map-control li {
