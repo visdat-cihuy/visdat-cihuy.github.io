@@ -82,3 +82,30 @@ function setControl(year) {
         }
     });
 }
+
+function getColor(d){
+    return d > 10 ? 'rgba(183,28,28,1)' :
+           d > 4  ? 'rgba(183,28,28,0.75)' :
+                    'rgba(183,28,28,0.5)';
+}
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0, 4, 10],
+        labels = [];
+    
+    div.innerHTML = '<p><b>UNEMPLOYMENT RATE (%)</b></p>';
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br><br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map);
