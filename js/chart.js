@@ -127,7 +127,7 @@ let mainChart = Highcharts.chart("mainChart", {
         lineColor: "#4a4d52",
         gridLineColor: "#4a4d52",
         title: {
-            text: "Rate (%)",
+            text: "Unemployment Rate (%)",
             style: {
                 color: "#d3d3d3",
             },
@@ -222,20 +222,23 @@ var conclusionChart = Highcharts.chart('conclusionChart', {
         labels: {
             style: {
                 color: "#d3d3d3",
+                fontSize: '14px'
             },
         }
     },
     yAxis: {
         gridLineColor: "#4a4d52",
         title: {
-            text: 'percentage',
+            text: 'unemployment rate (%)',
             style: {
                 color: "#d3d3d3",
+                fontSize: '14px'
             }
         },
         labels: {
             style: {
                 color: "#d3d3d3",
+                fontSize: '14px'
             },
         }
     },
@@ -243,7 +246,7 @@ var conclusionChart = Highcharts.chart('conclusionChart', {
         enabled: false
     },
     series: [{
-        name: 'percentage',
+        name: 'unemployment rate (%)',
         showInLegend: false,
         borderWidth: 0,
         data: [
