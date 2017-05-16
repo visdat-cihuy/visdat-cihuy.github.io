@@ -83,6 +83,7 @@ function setControl(year) {
     });
 }
 
+// LEGEND
 function getColor(d){
     return d > 10 ? 'rgba(183,28,28,1)' :
            d > 4  ? 'rgba(183,28,28,0.75)' :
@@ -97,7 +98,7 @@ legend.onAdd = function (map) {
         grades = [0, 4, 10],
         labels = [];
     
-    div.innerHTML = '<p><b>UNEMPLOYMENT RATE (%)</b></p>';
+    div.innerHTML = '<p><b>UNEMPLOYMENT RATE(%)</b></p>';
     // loop through our density intervals and generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
@@ -109,3 +110,42 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+// HOVER
+var info = L.control();
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info-hover'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (feature) {
+    this._div.innerHTML = '<h4>UNEMPLOYMENT RATE</h4>' +  (feature ?
+        '<b>' + colorMap[category[year][feature.properties.NAME_1]] + '</b><br />' + /* DENSITAS */ + ' people / mi<sup>2</sup>'
+        : 'Hover over a province');
+};
+
+function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: 'rgba(183,28,28,0.25)',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    }
+    info.update(layer.feature.properties); 
+}
+
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+
+info.addTo(map);
