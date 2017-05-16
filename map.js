@@ -44,7 +44,58 @@ let control = [
 
 
 var indoLayer = {};
+
+
 $.getJSON( "geodata_compact.json", function(data) {
+    // HOVER
+    var info = L.control();
+
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info-hover'); // create a div with a class "info"
+        this.update();
+        return this._div;
+    };
+
+    // method that we will use to update the control based on feature properties passed
+    info.update = function (feature) {
+        return this._div.innerHTML = '<h4>Unemployment Rate</h4>' +  (feature ?
+            '<b>' + feature.NAME_1 + '</b><br />'/*+  UNEMPLOYMENTRATE */ + ' people / mi<sup>2</sup>'
+            : 'Hover over a province');
+    };
+
+    function highlightFeature(e) {
+        var layer = e.target;
+
+        layer.setStyle({
+            weight: 5,
+            color: 'rgba(183,28,28,0.25)',
+            dashArray: '',
+            fillOpacity: 0.7
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+        info.update(layer.features.properties); 
+    }
+
+    function resetHighlight(e) {
+        indoLayer.resetStyle(e.target);
+        info.update();
+    }
+
+    function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+    }
+
+    info.addTo(map);
+    function onEachFeature(feature, layer) {
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
 
     indoLayer = L.geoJson(data, {
         style: function (feature) {
@@ -52,100 +103,64 @@ $.getJSON( "geodata_compact.json", function(data) {
                 color: colorMap[category["1996"][feature.properties.NAME_1]],
                 opacity: 0.2,
                 weight: 0,
-                fillOpacity: 1
+                fillOpacity: 1,
+                onEachFeature: onEachFeature
             }
         }
     }).addTo(map);
-});
-
-let $select = $('<select></select>')
+    let $select = $('<select></select>')
     .appendTo($('#control'))
     .on('change', function() {
         setControl($(this).val());
     });
 
-for (var i = 0; i < control.length; i++) {
-    $('<option></option>')
-        .text(control[i])
-        .attr('value', control[i])
-        .appendTo($select);
-}
+    for (var i = 0; i < control.length; i++) {
+        $('<option></option>')
+            .text(control[i])
+            .attr('value', control[i])
+            .appendTo($select);
+    }
 
-function setControl(year) {
-    indoLayer.setStyle(function(feature){
-        let color = colorMap[category[year][feature.properties.NAME_1]];
-        return {
-            color: color,
-            opacity: 0.2,
-            weight: 0,
-            fillOpacity: 1
+    function setControl(year) {
+        indoLayer.setStyle(function(feature){
+            let color = colorMap[category[year][feature.properties.NAME_1]];
+            return {
+                color: color,
+                opacity: 0.2,
+                weight: 0,
+                fillOpacity: 1
+            }
+        });
+    }
+
+    // LEGEND
+    function getColor(d){
+        return d > 10 ? 'rgba(183,28,28,1)' :
+               d > 4  ? 'rgba(183,28,28,0.75)' :
+                        'rgba(183,28,28,0.5)';
+    }
+
+    var legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [0, 4, 10],
+            labels = [];
+        
+        div.innerHTML = '<p><b>Unemployment Rate(%)</b></p>';
+        // loop through our density intervals and generate a label with a colored square for each interval
+        for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br><br>' : '+');
         }
-    });
-}
 
-// LEGEND
-function getColor(d){
-    return d > 10 ? 'rgba(183,28,28,1)' :
-           d > 4  ? 'rgba(183,28,28,0.75)' :
-                    'rgba(183,28,28,0.5)';
-}
+        return div;
+    };
 
-var legend = L.control({position: 'bottomright'});
+    legend.addTo(map);
+});
 
-legend.onAdd = function (map) {
 
-    var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 4, 10],
-        labels = [];
-    
-    div.innerHTML = '<p><b>UNEMPLOYMENT RATE(%)</b></p>';
-    // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br><br>' : '+');
-    }
 
-    return div;
-};
-
-legend.addTo(map);
-
-// HOVER
-var info = L.control();
-
-info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info-hover'); // create a div with a class "info"
-    this.update();
-    return this._div;
-};
-
-// method that we will use to update the control based on feature properties passed
-info.update = function (feature) {
-    this._div.innerHTML = '<h4>UNEMPLOYMENT RATE</h4>' +  (feature ?
-        '<b>' + colorMap[category[year][feature.properties.NAME_1]] + '</b><br />' + /* DENSITAS */ + ' people / mi<sup>2</sup>'
-        : 'Hover over a province');
-};
-
-function highlightFeature(e) {
-    var layer = e.target;
-
-    layer.setStyle({
-        weight: 5,
-        color: 'rgba(183,28,28,0.25)',
-        dashArray: '',
-        fillOpacity: 0.7
-    });
-
-    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        layer.bringToFront();
-    }
-    info.update(layer.feature.properties); 
-}
-
-function resetHighlight(e) {
-    geojson.resetStyle(e.target);
-    info.update();
-}
-
-info.addTo(map);
