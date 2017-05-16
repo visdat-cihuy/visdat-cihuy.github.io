@@ -28,6 +28,7 @@ function showArrow(index) {
 
 $('.annotations-arrow-next').click(function(e) {
     e.preventDefault();
+    currentSlide = mod((currentSlide + 1), 6);
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
 });
@@ -35,7 +36,6 @@ $('.annotations-arrow-next').click(function(e) {
 $('.annotations-arrow-prev').click(function(e) {
     e.preventDefault();
     currentSlide = mod((currentSlide - 1), 6);
-    console.log(currentSlide);
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
 });
