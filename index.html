@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
@@ -217,7 +219,35 @@
   </div>
 
   <div id="unemploymentMap" class="unemployment-map">
-    <h2 class="sub-heading">Unemployment Rate per Province</h2>
+    <h2 class="sub-heading">Unemployment Rate per Province Over Years</h2>
+    <div id="map"></div>
+    
+    <div class="map-control">
+    <h4 class="map-control-title">Select Year</h4>
+      <ul>
+        <li class="map-control-year selected">1996</li>
+        <li class="map-control-year">1997</li>
+        <li class="map-control-year">1998</li>
+        <li class="map-control-year">1999</li>
+        <li class="map-control-year">2000</li>
+        <li class="map-control-year">2001</li>
+        <li class="map-control-year">2002</li>
+        <li class="map-control-year">2003</li>
+        <li class="map-control-year">2004</li>
+        <li class="map-control-year">2005</li>
+        <li class="map-control-year">2006</li>
+        <li class="map-control-year">2007</li>
+        <li class="map-control-year">2008</li>
+        <li class="map-control-year">2009</li>
+        <li class="map-control-year">2010</li>
+        <li class="map-control-year">2011</li>
+        <li class="map-control-year">2013</li>
+        <li class="map-control-year">2014</li>
+        <li class="map-control-year">2015</li>
+        <li class="map-control-year">2016</li>
+      </ul>
+    </div>
+    
   </div>
 
   <div id="conclusion" class="conclusion">
@@ -250,9 +280,12 @@
   <script src="js/bootstrap.js"></script>
   <script src="https://code.highcharts.com/highcharts.src.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
   <script src="js/main.js"></script>
   <script src="js/chart.js"></script>
+  <script src="js/category.js"></script>
+  <script src="js/map.js"></script>
 
 </body>
 </html>

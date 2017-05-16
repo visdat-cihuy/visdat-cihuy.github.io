@@ -1,19 +1,39 @@
 <html>
 <head>
-  <!--script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'--><!--/script-->
-  <!--link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' /-->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-  <!--link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
-    integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
-    crossorigin=""/-->
-  <!--script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
-    integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
-    crossorigin=""></script-->
-  <link rel="stylesheet" href="map.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
 </head>
-<body>
-    <div id="mapid"></div>
+<body style="margin:0; padding:0;">
+
+    <style type="text/css">
+        .menu-ui {
+            position:absolute;
+            top:10px;
+            right:10px;
+        }
+
+        #map {
+            position:absolute;
+            top:0;
+            bottom:0;
+            width:100%;
+        }
+
+        /* Do a fancy data transition for browsers that support it */
+        path {
+            -webkit-transition:fill 200ms;
+                    transition:fill 200ms;
+        }
+    </style>
+
+    <div id="map"></div>
+    <div id="control" class="menu-ui"></div>
+
+    <script src="category.js"></script>
     <script src="map.js"></script>
 </body>
 </html>
