@@ -191,6 +191,11 @@ body {
     background: #36393E;
 }
 
+.unemployment-map {
+    background-color: #2E3136;
+    height: 100vh;
+}
+
 #conclusionChart {
 
 }
