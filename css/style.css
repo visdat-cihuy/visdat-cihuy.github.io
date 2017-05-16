@@ -321,3 +321,27 @@ body {
 .annotations-arrow-next:before {
     content: '→';
 }
+
+.red-legend{
+    width: 25px;
+    height: 25px;
+    background-color: #d15353;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.red-legend p{
+    margin-left: 50px;
+}
+
+.green-legend{
+    width: 25px;
+    height: 25px;
+    background-color: #5ABD70;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.green-legend p{
+    margin-left: 50px;
+}
