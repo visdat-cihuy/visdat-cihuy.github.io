@@ -111,46 +111,6 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 
-// HOVER
-var info = L.control();
-
-info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info-hover'); // create a div with a class "info"
-    this.update();
-    return this._div;
-};
-
-// method that we will use to update the control based on feature properties passed
-info.update = function (feature) {
-    this._div.innerHTML = '<h4>UNEMPLOYMENT RATE</h4>' +  (feature ?
-        '<b>' + colorMap[category[year][feature.properties.NAME_1]] + '</b><br />' + /* DENSITAS */ + ' people / mi<sup>2</sup>'
-        : 'Hover over a province');
-};
-
-function highlightFeature(e) {
-    var layer = e.target;
-
-    layer.setStyle({
-        weight: 5,
-        color: 'rgba(183,28,28,0.25)',
-        dashArray: '',
-        fillOpacity: 0.7
-    });
-
-    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        layer.bringToFront();
-    }
-    info.update(layer.feature.properties); 
-}
-
-function resetHighlight(e) {
-    geojson.resetStyle(e.target);
-    info.update();
-}
-
-info.addTo(map);
-
-
 $('.map-control-year').on('click', function() {
     $('.map-control-year').removeClass('selected');
     year = parseInt($(this).text());
