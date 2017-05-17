@@ -93,7 +93,8 @@ body {
 }
 
 .unemployment-rate {
-    min-height: 100vh;
+    min-height: 560px;
+    height: 100vh;
     background: #36393e;
 }
 
