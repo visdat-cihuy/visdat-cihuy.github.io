@@ -195,7 +195,8 @@ body {
 
 .unemployment-map {
     background-color: #2E3136;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 560px;
 }
 
 #map {
