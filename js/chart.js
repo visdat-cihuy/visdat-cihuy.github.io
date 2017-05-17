@@ -26,11 +26,17 @@ function showArrow(index) {
     $('.arrow' + '-' + index).removeClass("hide");
 }
 
+function showDetailz(index) {
+    $('.details').addClass('nonactive');
+    $('.details' + '-' + index).removeClass('nonactive');
+}
+
 $('.annotations-arrow-next').click(function(e) {
     e.preventDefault();
     currentSlide = mod((currentSlide + 1), 6);
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
+    showDetailz(currentSlide + 1);
 });
 
 $('.annotations-arrow-prev').click(function(e) {
@@ -38,6 +44,7 @@ $('.annotations-arrow-prev').click(function(e) {
     currentSlide = mod((currentSlide - 1), 6);
     $('.main-chart-annotations').slick('slickGoTo', currentSlide);
     showArrow(currentSlide + 1);
+    showDetailz(currentSlide + 1);
 });
 
 let mainChart = Highcharts.chart("mainChart", {

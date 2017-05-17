@@ -14,9 +14,9 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='
 }).addTo(map);
 
 let colorMap = {
-    "Tinggi": "rgba(183,28,28,1)",
-    "Sedang": "rgba(183,28,28,0.75)",
-    "Rendah": "rgba(183,28,28,0.5)"
+    "Tinggi": "rgba(221,39,39)",
+    "Sedang": "rgba(249,114,114)",
+    "Rendah": "rgba(252,209,209)"
 };
 let control = [
     "1996",
@@ -85,9 +85,9 @@ function setControl(year) {
 
 // LEGEND
 function getColor(d){
-    return d > 10 ? 'rgba(183,28,28,1)' :
-           d > 4  ? 'rgba(183,28,28,0.75)' :
-                    'rgba(183,28,28,0.5)';
+    return d > 10 ? 'rgba(221,39,39)':
+           d > 4  ? 'rgba(249,114,114)' :
+                    'rgba(252,209,209';
 }
 
 var legend = L.control({position: 'bottomright'});

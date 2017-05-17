@@ -5,6 +5,7 @@ body {
 .main {
     background-color: #2e3136;
     height: 100vh;
+    min-height: 600px;
     color: #eee;
 }
 
@@ -53,6 +54,48 @@ body {
     bottom: 230px;
 }
 
+.details {
+    width: 400px;
+    height: 100px;
+    color: #eee;
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    padding: 10px;
+    opacity: 1;
+    transition: 400ms ease;
+}
+
+.details p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.details-2 {
+    color: #d78158;
+}
+
+.details-3 {
+    color: #5abd70;
+}
+
+.details-4 {
+    color: #ce7dc1;
+}
+
+.details-5 {
+    color: #7289DA;
+}
+
+.details-6 {
+    color: #da7272;
+}
+
+.details.nonactive {
+    opacity: 0;
+}
+
 .collection-header {
     font-size: 16px;
     font-weight: 700;
@@ -62,6 +105,7 @@ body {
 }
 
 .collection-item {
+    font-family: 'Open sans', sans-serif;
     padding-bottom: 5px;
     font-size: 14px;
     font-weight: 500;
@@ -93,7 +137,7 @@ body {
 }
 
 .unemployment-rate {
-    min-height: 560px;
+    min-height: 700px;
     height: 100vh;
     background: #36393e;
 }
@@ -407,7 +451,7 @@ body {
     height: 30px;
     float: left;
     margin-right: 8px;
-    opacity: 0.7;
+    opacity: 1;
 }
 .info {
     padding: 0px 10px 10px;
