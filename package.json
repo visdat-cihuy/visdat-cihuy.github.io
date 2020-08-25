@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/visdat-cihuy/visdat-cihuy.github.io#readme",
   "dependencies": {
-    "highcharts": "^5.0.10"
+    "highcharts": "^8.2.0"
   }
 }
